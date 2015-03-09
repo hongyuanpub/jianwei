@@ -24,12 +24,12 @@
 <script type="text/javascript">
     var map = new BMap.Map("l-map");
     //map.centerAndZoom(new BMap.Point(116.404, 39.915), 14);
-    map.centerAndZoom(new BMap.Point(114.06205, 22.544232), 17);
-    var marker1 = new BMap.Marker(new BMap.Point(114.06205, 22.544232));  //创建标注
-    map.addOverlay(marker1);                 // 将标注添加到地图中
+    map.centerAndZoom(new BMap.Point(114.062346, 22.5421042), 17);
+    var marker = new BMap.Marker(new BMap.Point(114.06205, 22.544232));  //创建标注
+    map.addOverlay(marker);                 // 将标注添加到地图中
     //创建信息窗口
-    var infoWindow1 = new BMap.InfoWindow("普通标注");
-    marker1.addEventListener("click", function(){this.openInfoWindow(infoWindow1);});
+    //var infoWindow1 = new BMap.InfoWindow("普通标注");
+    //marker1.addEventListener("click", function(){this.openInfoWindow(infoWindow1);});
     //map.addOverlay(new BMap.Marker(114.062068,22.544282));
     //map.addControl(new BMap. ZoomControl ());
 </script>
