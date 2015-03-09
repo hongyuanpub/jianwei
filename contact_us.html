@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?type=quick&ak=iNGaZiSNNjxrGety5DG66bih&v=1.0"></script>
+    <title>联系我们</title>
+</head>
+<body>
+<div id="container">
+    <nav class="map_img"><img src="images/test.png"></nav>
+    <ul class="top">
+        <li><span>地址：</span><span>深圳市福田区深南大道4011号中国港中旅大厦9楼整层厦</span></li>
+        <li><span>邮编：</span><span>518021</span></li>
+        <li><span>电话：</span><span>+86 755 2266 1566</span></li>
+        <li><span>传真：</span><span>+86 755 2266 1599</span></li>
+    </ul>
+    <div id="l-map"></div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    var map = new BMap.Map("l-map");
+    //map.centerAndZoom(new BMap.Point(116.404, 39.915), 14);
+    map.centerAndZoom(new BMap.Point(114.06205, 22.544232), 17);
+    var marker1 = new BMap.Marker(new BMap.Point(114.06205, 22.544232));  //创建标注
+    map.addOverlay(marker1);                 // 将标注添加到地图中
+    //创建信息窗口
+    var infoWindow1 = new BMap.InfoWindow("普通标注");
+    marker1.addEventListener("click", function(){this.openInfoWindow(infoWindow1);});
+    //map.addOverlay(new BMap.Marker(114.062068,22.544282));
+    //map.addControl(new BMap. ZoomControl ());
+</script>
