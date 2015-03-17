@@ -18,7 +18,7 @@ body{background:#2758a7 url(../images/bg.jpg?20150211153) no-repeat center top;b
 h1 {
     margin-top: 20%;
     text-align: center;
-    font-size:1.5em;
+    font-size:1.4em;
     background:rgba(0,0,0,0.25);
     float: left;
     padding: 10px 10px 10px 10px;
@@ -26,11 +26,6 @@ h1 {
     border: 1px solid #fff;
     border-left: none;
     border-radius: 0 10px 10px 0;
-}
-
-span.title {
-    float: left;
-    display: block;
 }
 
 span.logo {
