@@ -56,6 +56,11 @@ div.social li {
     padding-top: 10px;
 }
 
+div.social a {
+    display: block;
+    height: 41px;
+}
+
 div.social div.left {
     float: left;
     color: #e1e1e1;
