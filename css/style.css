@@ -1,0 +1,50 @@
+body,form,div,span,ul,ol,li,p,pre,dl,dt,dd,h1,h2,h3,h4,h5,h6,em,a,fieldset,legend,address,label,textarea,select,input,figure,table,th,td,b,i{margin:0;padding:0}
+body,button,input,select,textarea{font:12px/1.5 Tahoma,Arial,'\5B8B\4F53'}
+fieldset,img{border:0}
+ul,li{list-style:none}
+em,i{font-style:normal}
+table{border-collapse:separate;border-spacing:0}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus,input,button,select,textarea{outline:none;font-size:100%}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-variant:normal}
+input,select,img{vertical-align:middle}
+legend{display:none}
+textarea{resize:none}
+button{cursor:pointer}
+html,body{height:100%;width:100%;overflow:hidden;position:relative}
+body{background:#2758a7 url(../images/bg.jpg?20150211153) no-repeat center top;background-size:100% auto}
+
+div.title {
+    position: absolute;
+    top: 7%;
+    background-color:rgba(255,255,255,0.75);
+    padding-left: 2%;
+    padding-right: 2%;
+}
+div.title img {
+    width: 50px;
+    height: 50px;
+}
+div.title span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #666;
+}
+
+ul.content {
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+}
+
+ul.content li {
+    width: 20rem;
+    border: 1px solid #fff;
+    border-right: none;
+    border-left: 3px solid #fff;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
