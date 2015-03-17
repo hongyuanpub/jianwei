@@ -1,0 +1,146 @@
+body,form,div,span,ul,ol,li,p,pre,dl,dt,dd,h1,h2,h3,h4,h5,h6,em,a,fieldset,legend,address,label,textarea,select,input,figure,table,th,td,b,i{margin:0;padding:0}
+body,button,input,select,textarea{font:12px/1.5 Tahoma,Arial, "Microsoft yahei",'\5B8B\4F53'}
+fieldset,img{border:0}
+ul,li{list-style:none}
+em,i{font-style:normal}
+table{border-collapse:separate;border-spacing:0}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus,input,button,select,textarea{outline:none;font-size:100%}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-variant:normal}
+input,select,img{vertical-align:middle}
+legend{display:none}
+textarea{resize:none}
+button{cursor:pointer}
+html,body{height:100%;width:100%;overflow:hidden;position:relative}
+/*body{background:#2758a7 url(../images/bigBg.jpg?20150211153) no-repeat center top;background-size:100% auto}*/
+body {
+    background: url(../images/bigBg.jpg) 0px 0px / cover no-repeat scroll rgba(0, 0, 0, 0);
+}
+
+h1 {
+    margin-top: 10%;
+    text-align: center;
+    font-size:1.4em;
+    background:rgba(0,0,0,0.25);
+    float: left;
+    padding: 10px 10px 10px 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+}
+
+span.logo {
+    float: left;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(../images/logo.png) no-repeat;
+    background-size: contain;
+}
+
+div.ab {
+    width:100%;
+    padding-left: 8px;
+    margin-top: 55%;
+}
+
+ul.block {
+    display: block;
+}
+
+.c:after {
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+    content: '.';
+}
+
+ul.block li {
+    float: left;
+    width: 30%;
+    opacity: 0.8;
+    border-radius: 10px;
+    margin: 0 8px 8px 0;
+}
+
+ul.block a {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    color: #fff;
+}
+a:-webkit-any-link {
+    color: #fff;
+}
+
+span.icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 5px;
+    background: url(../images/indexBg.png) no-repeat;
+    background-size: 116px auto;
+}
+
+li.home span.icon {
+    background-position: 1px -219px;
+}
+
+li.home {
+    background: #335cab;
+}
+
+li.student span.icon {
+    background-position: -3px -55px;
+}
+
+li.student {
+    background: #06aa06;;
+}
+
+li.route span.icon {
+    background-position: -3px -55px;
+}
+
+li.route {
+    background: #00d9da;
+}
+
+li.staff span.icon {
+    background-position: -1px -219px;
+}
+
+li.staff {
+    background: #eb7171;
+}
+
+li.contact span.icon {
+    background-position: 1px -172px;
+}
+
+li.contact {
+    background: #9dc02e;
+}
+
+li.global {
+    background: #00a1d9;
+}
+
+span.iconContentBox {
+    width: 80px;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    color: #fff;
+    font-family: "Microsoft yahei";
+    font-weight: normal;
+    font-size: 1.3em;
+    line-height: 1.1;
+}
