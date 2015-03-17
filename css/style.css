@@ -13,10 +13,13 @@ legend{display:none}
 textarea{resize:none}
 button{cursor:pointer}
 html,body{height:100%;width:100%;overflow:hidden;position:relative}
-body{background:#2758a7 url(../images/bg.jpg?20150211153) no-repeat center top;background-size:100% auto}
+/*body{background:#2758a7 url(../images/bigBg.jpg?20150211153) no-repeat center top;background-size:100% auto}*/
+body {
+    background: url(../images/bigBg.jpg) 0px 0px / cover no-repeat scroll rgba(0, 0, 0, 0);
+}
 
 h1 {
-    margin-top: 20%;
+    margin-top: 10%;
     text-align: center;
     font-size:1.4em;
     background:rgba(0,0,0,0.25);
@@ -66,6 +69,11 @@ ul.block li {
 ul.block a {
     display: block;
     padding: 5px 0;
+    text-decoration: none;
+    color: #fff;
+}
+a:-webkit-any-link {
+    color: #fff;
 }
 
 span.icon {
@@ -83,6 +91,38 @@ li.home span.icon {
 
 li.home {
     background: #335cab;
+}
+
+li.student span.icon {
+    background-position: -3px -55px;
+}
+
+li.student {
+    background: #06aa06;;
+}
+
+li.route span.icon {
+    background-position: -3px -55px;
+}
+
+li.route {
+    background: #00d9da;
+}
+
+li.staff span.icon {
+    background-position: -1px -219px;
+}
+
+li.staff {
+    background: #eb7171;
+}
+
+li.contact span.icon {
+    background-position: 1px -172px;
+}
+
+li.contact {
+    background: #9dc02e;
 }
 
 li.global {
@@ -105,3 +145,12 @@ span.iconContentBox {
     line-height: 1.1;
 }
 
+div.social {
+    width:100%;
+    padding-left: 8px;
+    margin-top: 200px;
+}
+
+div.social li {
+    height: 100px;
+}
