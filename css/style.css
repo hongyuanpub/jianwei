@@ -16,15 +16,31 @@ html,body{height:100%;width:100%;overflow:hidden;position:relative}
 body{background:#2758a7 url(../images/bg.jpg?20150211153) no-repeat center top;background-size:100% auto}
 
 h1 {
-    margin-top: 10%;
+    margin-top: 20%;
     text-align: center;
     font-size:1.5em;
+    background:rgba(0,0,0,0.25);
+    float: left;
+    padding: 10px 10px 10px 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+}
+
+span.logo {
+    float: left;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(../images/logo.png) no-repeat;
+    background-size: contain;
 }
 
 div.ab {
     width:100%;
     padding-left: 8px;
-    margin-top: 50%;
+    margin-top: 55%;
 }
 
 ul.block {
@@ -43,8 +59,13 @@ ul.block li {
     float: left;
     width: 30%;
     opacity: 0.8;
-    border-radius: 3px;
+    border-radius: 10px;
     margin: 0 8px 8px 0;
+}
+
+ul.block a {
+    display: block;
+    padding: 5px 0;
 }
 
 span.icon {
@@ -70,7 +91,7 @@ li.global {
 
 span.iconContentBox {
     width: 80px;
-    height: 22px;
+    height: 20px;
     display: block;
     margin: 0 auto;
     overflow: hidden;
