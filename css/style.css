@@ -95,6 +95,88 @@ div.de {
 div.job a {
     font-size: 0.9rem;
 }
+div.pleft {
+    background:rgba(0,0,0,0.55);
+    float: right;
+    width: 75%;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #FFF;
+    border-right: none;
+}
+div.pleft a {
+    display: block;
+}
+div.pleft div.text {
+    padding-bottom: 5px;
+    text-align: center;
+}
+div.pleft img {
+    width: 100%;
+    height: 100%;
+}
+div.pright {
+    background:rgba(0,0,0,0.55);
+    float: left;
+    width: 75%;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid #FFF;
+    border-left: none;
+}
+div.pright a {
+    display: block;
+}
+div.pright div.text {
+    padding-bottom: 5px;
+    text-align: center;
+}
+div.pright img {
+    width: 100%;
+    height: 100%;
+}
+div.back {
+    padding-top: 20px;
+    clear: both;
+    text-align: center;
+    padding-bottom: 10px;
+}
 
+div.show {
+    background:rgba(0,0,0,0.55);
+    padding: 8px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+}
+
+div.show img {
+    width: 100%;
+    height: 100%;
+}
+div.showin {
+    padding-bottom: 5px;
+}
+
+div.plan {
+    background:rgba(0,0,0,0.55);
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+}
+div.plan img {
+    width:100%;
+    height: 100%;
+}
+div.plan div {
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+div.plan div.x {
+    font-size: 0.7rem;
+}
 
 
